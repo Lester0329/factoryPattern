@@ -1,4 +1,4 @@
-package midterm;
+package factoryPattern;
 
 import java.util.Scanner;
 public class clinic {
