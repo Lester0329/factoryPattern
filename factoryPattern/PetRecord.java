@@ -1,8 +1,7 @@
-package factoryPattern;
-
-public class PetRecord {
     private String petId;
     private String petName;
+    private String breed;
+    private Integer noOflives;
     private Pet pet;
 
     public String getPetId() {
@@ -21,6 +20,22 @@ public class PetRecord {
         this.petName = petName;
     }
 
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public Integer getNoOflives() {
+        return noOflives;
+    }
+
+    public void setNoOflives(Integer noOflives) {
+        this.noOflives = noOflives;
+    }
+
     public Pet getPet() {
         return pet;
     }
@@ -29,3 +44,4 @@ public class PetRecord {
         this.pet = pet;
     }
 }
+
